@@ -3,7 +3,7 @@ body{
     line-height: 1.5;
     margin: 4;
     background-color: black;
-    color: black;
+    color: white;
 }
 
 header{
@@ -27,6 +27,7 @@ section{
     margin-bottom: 25px;
     padding: 25px;
     border-radius: 10px;
+    color:black;
 }
 
 a{
