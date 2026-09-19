@@ -30,11 +30,11 @@ section{
 }
 
 a{
-    color:blue
+    color:blue;
 }
 
 a:hover{
-    color:aqua
+    color:aqua;
 }
 footer{
     text-align: center;
