@@ -3,10 +3,6 @@
 
 const DATA_URL = "data/instruments.json";
 
-/**
- * Fetches instrument data from the external JSON file.
- * Returns an object containing the instrument families.
- */
 async function loadInstrumentData() {
     const response = await fetch(DATA_URL);
 
@@ -23,10 +19,6 @@ async function loadInstrumentData() {
     return instrumentData;
 }
 
-/**
- * Creates a button with a click event.
- * Returns the completed button element.
- */
 function createButton(label, onClick) {
     const button = document.createElement("button");
 
@@ -38,10 +30,6 @@ function createButton(label, onClick) {
     return button;
 }
 
-/**
- * Creates an instrument family card.
- * Returns the completed article element.
- */
 function createFamilyCard(family, onSelect) {
     const card = document.createElement("article");
     card.className = "instrument-card";
@@ -62,12 +50,6 @@ function createFamilyCard(family, onSelect) {
     return card;
 }
 
-/**
- * Creates an individual instrument card.
- * Returns the completed article element.
- */
-
-/** Creates an instrument card with an image. */
 function createInstrumentCard(instrument, onSelect) {
     const card = document.createElement("article");
     card.className = "instrument-card";
@@ -96,16 +78,10 @@ function createInstrumentCard(instrument, onSelect) {
     return card;
 }
 
-
-/**
- * Creates an educational information section.
- * Returns the completed article element.
- */
 function createInstrumentDetails(instrument) {
     const details = document.createElement("article");
     details.className = "instrument-card";
 
-    // Display the instrument image when available.
     if (instrument.image) {
         const image = document.createElement("img");
         image.src = instrument.image;
@@ -115,7 +91,6 @@ function createInstrumentDetails(instrument) {
         details.appendChild(image);
     }
 
-    // Create a table containing the instrument's facts.
     if (instrument.facts) {
         const factsHeading = document.createElement("h3");
         factsHeading.textContent = "Instrument Information";
@@ -143,14 +118,12 @@ function createInstrumentDetails(instrument) {
         details.append(factsHeading, table);
     }
 
-    // Display the instrument's playing information.
     const playingHeading = document.createElement("h3");
     playingHeading.textContent = "How Is It Played?";
 
     const playingText = document.createElement("p");
     playingText.textContent = instrument.howToPlay;
 
-    // Display the instrument's role in the orchestra.
     const roleHeading = document.createElement("h3");
     roleHeading.textContent = "Role in the Orchestra";
 
@@ -167,10 +140,6 @@ function createInstrumentDetails(instrument) {
     return details;
 }
 
-/**
- * Initializes the explorer after the page loads.
- * Keeps the loaded data and navigation state local.
- */
 async function initializeExplorer() {
     const content = document.getElementById("explorer-content");
     const title = document.getElementById("explorer-title");
@@ -181,17 +150,11 @@ async function initializeExplorer() {
     let families = [];
     let selectedFamily = null;
 
-    /**
-     * Updates the explorer heading and description.
-     */
     function updateHeading(headingText, descriptionText) {
         title.textContent = headingText;
         description.textContent = descriptionText;
     }
 
-    /**
-     * Displays all four instrument families.
-     */
     function displayFamilies() {
         selectedFamily = null;
 
@@ -211,9 +174,6 @@ async function initializeExplorer() {
         backButton.onclick = null;
     }
 
-    /**
-     * Displays the instruments belonging to a selected family.
-     */
     function displayInstruments(family) {
         selectedFamily = family;
 
@@ -237,9 +197,6 @@ async function initializeExplorer() {
         backButton.onclick = displayFamilies;
     }
 
-    /**
-     * Displays the selected instrument's educational information.
-     */
     function displayInstrumentDetails(instrument) {
         updateHeading(
             instrument.name,
@@ -257,9 +214,6 @@ async function initializeExplorer() {
         };
     }
 
-    /**
-     * Displays a loading error with an option to retry.
-     */
     function displayError() {
         content.replaceChildren();
 
@@ -282,9 +236,6 @@ async function initializeExplorer() {
         content.appendChild(retryButton);
     }
 
-    /**
-     * Loads the JSON data and displays the family choices.
-     */
     async function loadAndDisplayData() {
         content.replaceChildren();
 
