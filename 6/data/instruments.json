@@ -1,0 +1,257 @@
+
+{
+  "families": [
+    {
+      "id": "strings",
+      "name": "Strings",
+      "description": "String instruments produce sound through vibrating strings.",
+      "instruments": [
+        {
+          "id": "violin",
+          "name": "Violin",
+          "description": "The violin is the highest-pitched standard member of the string family. It is one of the most recognizable instruments in an orchestra.",
+          "howToPlay": "The violin is played by drawing a bow across its four strings or plucking them with the fingers. Violinists press the strings against the fingerboard to change pitch and use different bowing techniques to create a variety of sounds.",
+          "orchestraRole": "Violins frequently carry the main melody because of their high register and ability to play fast musical passages. In an orchestra, they are usually divided into first and second violin sections, allowing them to perform different melodies, harmonies, and rhythmic patterns.",
+          "image": "img/violin.jpg",
+          "facts": {
+            "Family": "Strings",
+            "Common Role": "Melody and harmony",
+            "Typical Range": "G3–E7",
+            "How It Produces Sound": "Vibrating strings"
+          }
+        },
+        {
+          "id": "viola",
+          "name": "Viola",
+          "description": "The viola is slightly larger than the violin and has a lower, darker sound. It plays an important role in the middle range of the string section.",
+          "howToPlay": "The viola is played similarly to the violin, using a bow or plucking the strings with the fingers. Its larger body and longer strings produce a deeper, warmer sound. Violists hold the instrument beneath the chin and use their fingers to change pitch.",
+          "orchestraRole": "The viola often fills the middle register between the violins and lower string instruments. Its darker tone helps connect different sections of the orchestra. Violists commonly perform harmonies, supporting rhythms, and inner melodies.",
+          "image": "img/viola.jpg",
+          "facts": {
+            "Family": "Strings",
+            "Common Role": "Harmony and inner melodies",
+            "Typical Range": "C3–A6",
+            "How It Produces Sound": "Vibrating strings"
+          }
+        },
+        {
+          "id": "cello",
+          "name": "Cello",
+          "description": "The cello is a large string instrument with a rich and expressive sound. It can perform melodies while also supporting the lower part of an ensemble.",
+          "howToPlay": "Cellists play while seated, holding the instrument upright between their knees with an endpin resting on the floor. Sound is produced by drawing a bow across the strings or plucking them with the fingers. The player's left hand presses the strings to produce different pitches.",
+          "orchestraRole": "The cello provides both melodic and harmonic support in an orchestra. Its rich, expressive sound allows it to perform emotional melodies while also reinforcing lower musical passages. Cellos frequently work alongside double basses to establish the foundation of the string section.",
+          "image": "img/cello.jpg",
+          "facts": {
+            "Family": "Strings",
+            "Common Role": "Melody, harmony, and bass support",
+            "Typical Range": "C2–C6",
+            "How It Produces Sound": "Vibrating strings"
+          }
+        },
+        {
+          "id": "double-bass",
+          "name": "Double Bass",
+          "description": "The double bass is the largest common orchestral string instrument. Its low register provides an important foundation for the rest of the string section and orchestra.",
+          "howToPlay": "The double bass is played while standing or sitting on a tall stool because of its large size. Players produce sound by drawing a bow across the strings or plucking them with their fingers. Its long, thick strings allow it to produce very low notes.",
+          "orchestraRole": "The double bass provides the lowest foundation of the orchestral string section. It often reinforces bass lines played by cellos, bassoons, and tubas. Its deep sound supports the orchestra's harmony, rhythm, and overall musical structure.",
+          "image": "img/double-bass.jpg",
+          "facts": {
+            "Family": "Strings",
+            "Common Role": "Low foundation and rhythmic support",
+            "Typical Range": "E1–G4",
+            "How It Produces Sound": "Vibrating strings"
+          }
+        }
+      ]
+    },
+    {
+      "id": "woodwinds",
+      "name": "Woodwinds",
+      "description": "Woodwind instruments produce sound using vibrating air, often with reeds or an air edge.",
+      "instruments": [
+        {
+          "id": "flute",
+          "name": "Flute",
+          "description": "The flute is a woodwind instrument known for its bright and clear sound. It is one of the highest-pitched instruments commonly found in an orchestra.",
+          "howToPlay": "Unlike many woodwind instruments, the flute does not use a reed. The player creates sound by blowing air across an opening near the mouthpiece. Flutes are commonly made from metal and use keys to control the instrument's notes.",
+          "orchestraRole": "Flutes often play melodies, countermelodies, and decorative passages. Their high register allows them to stand out above many of the other instruments in the orchestra.",
+          "image": "img/flute.jpg",
+          "facts": {
+            "Instrument Family": "Woodwind",
+            "Typical Range": "High",
+            "Reed": "None",
+            "Common Material": "Metal"
+          }
+        },
+        {
+          "id": "clarinet",
+          "name": "Clarinet",
+          "description": "The clarinet is a single-reed woodwind instrument with a wide range and a smooth, flexible sound.",
+          "howToPlay": "The clarinet produces sound using a single reed attached to its mouthpiece. Players use keys along the instrument to control its pitch. The clarinet can produce both low and high notes.",
+          "orchestraRole": "Clarinet parts can include melodies, harmonies, and supporting passages. Its wide range allows it to fill several different roles within an orchestral arrangement.",
+          "image": "img/clarinet.jpg",
+          "facts": {
+            "Instrument Family": "Woodwind",
+            "Typical Range": "Wide",
+            "Reed": "Single reed",
+            "Common Material": "Wood"
+          }
+        },
+        {
+          "id": "oboe",
+          "name": "Oboe",
+          "description": "The oboe is a double-reed woodwind instrument recognized for its distinctive, focused tone.",
+          "howToPlay": "The oboe produces sound when air passes through two small pieces of reed placed together at the top of the instrument. Oboes are usually made from wood and have a system of keys used to produce different notes.",
+          "orchestraRole": "The oboe frequently performs important melodic passages and can provide expressive sounds that help give orchestral music its character.",
+          "image": "img/oboe.jpg",
+          "facts": {
+            "Instrument Family": "Woodwind",
+            "Typical Range": "High",
+            "Reed": "Double reed",
+            "Common Material": "Wood"
+          }
+        },
+        {
+          "id": "bassoon",
+          "name": "Bassoon",
+          "description": "The bassoon is a large double-reed woodwind instrument known for its deep and distinctive sound.",
+          "howToPlay": "The bassoon uses a double reed connected to a long folded tube. Its large size allows it to produce low notes while still being capable of playing a wide range of pitches.",
+          "orchestraRole": "Bassoons often provide bass lines and harmonic support for the woodwind section. They can also play melodies and are sometimes used for humorous or distinctive musical effects.",
+          "image": "img/bassoon.jpg",
+          "facts": {
+            "Instrument Family": "Woodwind",
+            "Typical Range": "Low to middle",
+            "Reed": "Double reed",
+            "Common Material": "Wood"
+          }
+        }
+      ]
+    },
+    {
+      "id": "brass",
+      "name": "Brass",
+      "description": "Brass instruments produce sound through the vibration of a player's lips in a mouthpiece.",
+      "instruments": [
+        {
+          "id": "trumpet",
+          "name": "Trumpet",
+          "description": "The trumpet is a bright and powerful brass instrument commonly used for melodies and fanfare-like passages.",
+          "howToPlay": "Trumpets produce sound when the player vibrates their lips against the mouthpiece. Valves are used to change the length of the tubing and produce different notes.",
+          "orchestraRole": "Trumpets often play strong melodies, rhythmic parts, and dramatic musical passages. Their bright sound allows them to stand out from many other instruments.",
+          "image": "img/trumpet.jpg",
+          "facts": {
+            "Instrument Family": "Brass",
+            "Typical Range": "High",
+            "Valves": "Usually 3",
+            "Common Material": "Brass"
+          }
+        },
+        {
+          "id": "trombone",
+          "name": "Trombone",
+          "description": "The trombone is a brass instrument recognized by its long slide and powerful sound.",
+          "howToPlay": "Unlike most brass instruments, the trombone commonly uses a slide instead of valves to change pitch. Moving the slide changes the length of the tubing through which the air travels.",
+          "orchestraRole": "Trombones provide powerful harmonies, bass lines, and dramatic musical passages. They are especially useful when an orchestra needs a strong and bold brass sound.",
+          "image": "img/trombone.jpg",
+          "facts": {
+            "Instrument Family": "Brass",
+            "Typical Range": "Middle to low",
+            "Pitch Mechanism": "Slide",
+            "Common Material": "Brass"
+          }
+        },
+        {
+          "id": "french-horn",
+          "name": "French Horn",
+          "description": "The French horn is a brass instrument known for its rounded shape and warm, mellow sound.",
+          "howToPlay": "The French horn has a long length of coiled tubing. Players use valves to change the length of the tubing and produce different pitches. The player's hand can also be placed inside the bell to affect the sound.",
+          "orchestraRole": "French horns are often used to create rich harmonies and support melodies. They can blend with both the woodwind and brass sections.",
+          "image": "img/french-horn.jpg",
+          "facts": {
+            "Instrument Family": "Brass",
+            "Typical Range": "Middle to high",
+            "Valves": "Usually 3 or 4",
+            "Common Material": "Brass"
+          }
+        },
+        {
+          "id": "tuba",
+          "name": "Tuba",
+          "description": "The tuba is the largest common brass instrument and is known for producing deep, low-pitched sounds.",
+          "howToPlay": "The tuba produces sound when the player vibrates their lips into a mouthpiece. Valves are used to change the length of the tubing and control the instrument's pitch.",
+          "orchestraRole": "Tubas usually provide the foundation of the brass section by playing low notes and supporting the harmony and rhythm of orchestral music.",
+          "image": "img/tuba.jpg",
+          "facts": {
+            "Instrument Family": "Brass",
+            "Typical Range": "Low",
+            "Valves": "Usually 3 to 6",
+            "Common Material": "Brass"
+          }
+        }
+      ]
+    },
+    {
+      "id": "percussion",
+      "name": "Percussion",
+      "description": "Percussion instruments create sound when struck, shaken, or scraped.",
+      "instruments": [
+        {
+          "id": "timpani",
+          "name": "Timpani",
+          "description": "Timpani are large drums that can produce specific musical pitches and are an important part of the orchestral percussion section.",
+          "howToPlay": "Timpani consist of a large bowl-shaped drum with a stretched membrane. The player strikes the membrane with special mallets. Many timpani can be tuned to different pitches using a pedal.",
+          "orchestraRole": "Timpani can emphasize important musical moments, support the bass line, and add rhythm and dramatic impact to an orchestral piece.",
+          "image": "img/timpani.jpg",
+          "facts": {
+            "Instrument Family": "Percussion",
+            "Type": "Pitched percussion",
+            "Played With": "Mallets",
+            "Pitch": "Adjustable"
+          }
+        },
+        {
+          "id": "snare-drum",
+          "name": "Snare Drum",
+          "description": "The snare drum is a percussion instrument known for its sharp, crisp sound and rhythmic versatility.",
+          "howToPlay": "A snare drum has a set of wires or metal strands stretched across the bottom head of the drum. When the drum is struck, these snares create its distinctive buzzing sound.",
+          "orchestraRole": "The snare drum can provide rhythmic patterns, accents, and dramatic effects. It is also commonly used in military and marching music.",
+          "image": "img/snare.jpg",
+          "facts": {
+            "Instrument Family": "Percussion",
+            "Type": "Unpitched percussion",
+            "Played With": "Drumsticks",
+            "Sound": "Sharp and rhythmic"
+          }
+        },
+        {
+          "id": "bass-drum",
+          "name": "Bass Drum",
+          "description": "The bass drum is a large percussion instrument that produces powerful, deep sounds.",
+          "howToPlay": "The bass drum is a large cylindrical drum that is usually struck with a large soft mallet. Its size allows it to produce very low and powerful sounds.",
+          "orchestraRole": "The bass drum is often used to emphasize important moments and create dramatic impact. It can also support the rhythm and intensity of a musical passage.",
+          "image": "img/bass-drum.jpg",
+          "facts": {
+            "Instrument Family": "Percussion",
+            "Type": "Unpitched percussion",
+            "Played With": "Large mallet",
+            "Sound": "Deep and powerful"
+          }
+        },
+        {
+          "id": "cymbals",
+          "name": "Cymbals",
+          "description": "Cymbals are percussion instruments made from metal that can create bright crashes and sustained sounds.",
+          "howToPlay": "Orchestral cymbals are usually played by striking two cymbals together or by using a mallet. The resulting sound can range from a short accent to a long, powerful crash.",
+          "orchestraRole": "Cymbals are often used to emphasize important moments, transitions, and climaxes. Their sound can add excitement and intensity to an orchestral performance.",
+          "image": "img/cymbals.jpg",
+          "facts": {
+            "Instrument Family": "Percussion",
+            "Type": "Unpitched percussion",
+            "Common Material": "Metal",
+            "Sound": "Bright and resonant"
+          }
+        }
+      ]
+    }
+  ]
+}
